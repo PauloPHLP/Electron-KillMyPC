@@ -6,9 +6,14 @@ exports.createWindow = () => {
   this.win = new BrowserWindow({
     width: 400,
     height: 600,
-    // minWidth: 400,
-    // maxWidth: 400,
-    // minHeight: 600
+    minWidth: 400,
+    maxWidth: 400,
+    minHeight: 600,
+    maxHeight: 600,
+    frame: false,
+    maximizable: false,
+    fullscreenable: false,
+    useContentSize: false,
     webPreferences: {
       nodeIntegration: true
     }

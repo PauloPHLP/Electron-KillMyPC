@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+html, body {
+  -webkit-app-region: drag;
+  background-color: #3498DB;
+  height: 600px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.close-btn, .mini-btn {
+  height: 25px;
+  width: 25px;
+  float: right;
+  margin-top: 3%;
+  margin-right: -1%;
+  margin-left: 3%;
+  cursor: pointer;
+  color: #FFFFFF;
+  -webkit-app-region: no-drag;
+}
+
+.close-btn:hover, .mini-btn:hover {
+  background-color: #1E8BC3;
+  border-radius: 100%;
+}
+
+.main-icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #FFFFFF;
+}
+
+.slogan {
+  font-size: 45px;
+  text-align: right;
+  font-family: 'Vollkorn';
+  color: #FFFFFF;
+  margin-right: 7%;
+  margin-top: -21%;
+}
+
+.profiles-btn {
+  -webkit-app-region: no-drag;
+  font-family: 'Vollkorn';
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 15%;
+  width: 350px;
+}
+
+.timer-btn {
+  -webkit-app-region: no-drag;
+  font-family: 'Vollkorn';
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  width: 350px;
+}
+
+.fast-select, option, select {
+  text-align-last:center;
+  border: 0;
+  color: #FFFFFF;
+  -webkit-app-region: no-drag;
+  font-family: 'Vollkorn';
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  width: 350px;
+}
+
+.btn-primary, .form-control, option {
+  background-color: #34495E;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.btn-primary:hover, .form-control:hover, option:hover {
+  background-color: #2C3E50;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.btn-primary:active, .btn-primary:focus, .form-control:active, .form-control:focus, option:active, option:focus
+{
+  background-color: #22313F;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.run-btn {
+  background-color: #86E2D5;
+  -webkit-app-region: no-drag;
+  font-family: 'Vollkorn';
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  width: 200px;
+}
+
+.run-btn:hover {
+  background-color: #2ECC71;
+  color: #FFFFFF;
+  border: 0;
+}

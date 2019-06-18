@@ -1,4 +1,4 @@
-const { app } = require('electron');
+const { app, ipcMain } = require('electron');
 const electron = require('electron');
 const mainWindow = require('./renderer/windows/mainWindow');
 
