@@ -1,5 +1,22 @@
-# Electron - Kill My PC 
+# 🖥️ Kill My PC
 
+<h1 align="center">
+  <img src=".github/logo.png" width="200px" />
+</h1>
+
+## 🔎️ Description
 An app to test HTML and CSS on Electron.
 
-It is used in this project: HTML, CSS, JavaScript, Node.Js Electron.
+## 🚀️ Technologies
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Electron
+ 
+---
+
+Thank you and good coding 😎️
+
+Made by **<a href="https://paulophlp.github.io/portfolio/" target="__blank">Paulo Lima 🤓️</a>**
